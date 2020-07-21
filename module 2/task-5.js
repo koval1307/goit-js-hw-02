@@ -1,14 +1,14 @@
-// const ask = function (question , yes, no) 
-//    { (confirm(question)) ? yes() :  no()}
+const checkForSpam = function(message) {
+const upperCase = message.toUpperCase();
+console.log(upperCase)
+  if (upperCase.includes("SPAM")) {return false}
+  else if (upperCase.includes("SALE")) {return false}
+  else {return true};}
 
-
-//    ask(
-//     "Вы согласны?",
-//     () => alert("Вы согласились."),
-//     () => alert("Вы отменили выполнение.")
-//   );
-  const string =  function (str = "", n=2) {
-
-    console.log(str.repeat(n));
-  }
-string("fdsvs", );
+ console.log(checkForSpam('Latest technology news')); // false
+ 
+ console.log(checkForSpam('JavaScript weekly newsletter')); // false
+ 
+ console.log(checkForSpam('Get best sale offers now!')); // true
+ 
+ console.log(checkForSpam('[SPAM] How to earn fast money?')); //  true
