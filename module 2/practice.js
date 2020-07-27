@@ -1,4 +1,6 @@
+"use strict "
 // let schedule ={};
+
 
 // const isEmpty = function(obj) {
 //     for (let i in obj) {return false;}
@@ -46,3 +48,56 @@
 
 
 // }
+// const printMessage = function (message) {
+//     console.log (message);}
+//     const higherOrderFunction = function(callback) {
+//         const string = 'HOCs are awesome';
+//         callback(string);
+//       };
+      
+//       higherOrderFunction(printMessage);
+
+
+
+//       / Напишите ф-цию, которая примает аргументами 2 числа,  задающих диапазон который нужно вывести в консоль
+//       // если в числе есть 3 - в консоль вместо него выводиться "three"
+//       // (то есть вместо 3, 13, 23 и т.д. должно быть "three")
+// let a=3;
+// let b = 0;
+// let result = (a+b) < 4 ? "мало" : "много";
+//  console.log (result);
+
+// let message = login === 'сотрудник' ? "привет" :
+// (login === "директор") ? "Здравствуйте" :
+// (login === " ") ? "нет логина" :
+// "";
+// function ask(question, yes, no) {
+//     if (confirm(question)) yes()
+//     else no();
+//   }
+  
+//   function showOk() {
+//     alert( "Вы согласны." );
+//   }
+  
+//   function showCancel() {
+//     alert( "Вы отменили выполнение." );
+//   }
+  
+//   // использование: функции showOk, showCancel передаются в качестве аргументов ask
+//   ask("Вы согласны?", showOk, showCancel);
+// Петя бежит быстро, потому что Петя пытается поймать поезд.
+// const petya = {
+//     name: 'Petya',
+//     showName() {
+//       console.log(petya.name);
+//     },
+//   };
+  
+//   petya.showName();
+let user = {
+    name: "Джон",
+    go: function() { alert(this.name) }
+  };
+  
+  (user.go)() // Джон
