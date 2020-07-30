@@ -159,5 +159,81 @@
 // console.log(student.getFullName()); //выведет 'Иван Иванов'
 // console.log(student.year); //выведет 2017; //выведет 3 - третий курс, так как текущий год 2020
 // console.log (student.getCourse());
+//--------1-------
+// const numbers = [1, 2, 3, 4, 5];
+// const doubleNumbers = numbers.map(num => num * 2);
+// console.log (doubleNumbers);
+
+//---------2---------
+// const arr = ["Есть", "жизнь", "на", "Марсе"];
+
+// const result = arr.map (num => num.length  )
+// console.log (result);
+
+//------3-------//
+
+// const tweets = [  { id: "000", likes: 5, tags: ["js", "nodejs"] },
+//  { id: "001", likes: 2, tags: ["html", "css"] },
+//   { id: "002", likes: 17, tags: ["html", "js", "nodejs"] }, 
+//   { id: "003", likes: 8, tags: ["css", "react"] }, 
+//   { id: "004", likes: 0, tags: ["js", "nodejs", "react"] },     ];
+
+//   const summ = tweets.reduce((totalLikes, tweet) => totalLikes + tweet.likes, 0);
+//   console.log (summ);
+
+  //-------4-----//
+//   const tweets = [  { id: "000", likes: 5, tags: ["js", "nodejs"] },
+//  { id: "001", likes: 2, tags: ["html", "css"] },
+//   { id: "002", likes: 17, tags: ["html", "js", "nodejs"] }, 
+//   { id: "003", likes: 8, tags: ["css", "react"] }, 
+//   { id: "004", likes: 0, tags: ["js", "nodejs", "react"] },     ];
+
+//   const allJs = tweets.filter(tweets => tweets.tags.includes("js"));
+
+//   console.log (allJs);
+
+
+///---------5---------//
+
+// 
+///--------6-----------//
+
+// let items = [{name: "Миша", age: 23},
+// {name: "Вася", age: 44},
+// {name: "Саша", age: 2}, 
+// {name: "Рома", age: 99}, 
+// {name: "Ашот", age: 19}];
+
+// const sortedItems = (a,b) => a.age - b.age;
+// console.log(items.sort(sortedItems));
+
+///--------7---------///
+
+// let x = [1, 2, 3, "a", "b", "c"]; 
+
+// console.log(x.fill(0,0));
+
+/////------8---------///
+// const arr = [10, 20, 30, 40];
+// const bigNum = arr.some(arr => arr > 30);
+// console.log (bigNum);
+
+////---9------/////
+
+
+// let items = [{name: "Миша", age: 23 , isTheKingOfNeighbourhood: false}, 
+// {name: "Вася", age: 44 , isTheKingOfNeighbourhood: false},
+// {name: "Саша", age: 2 , isTheKingOfNeighbourhood: false},
+// {name: "Рома", age: 99 , isTheKingOfNeighbourhood: false},
+// {name: "Ашот", age: 19 , isTheKingOfNeighbourhood: true}];
+
+// let theKing = items.filter(items=>items.isTheKingOfNeighbourhood)
+// console.log(theKing);
+
+// const users =[{ name: "Mango", daysInactive: 10, isActive: true },
+//                 { name: "Poly", daysInactive: 5, isActive: true },  
+//                  { name: "Ajax", daysInactive: 12, isActive: true }];
+// users.forEach(users => users.daysInactive > 10 );
+
 
 
