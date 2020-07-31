@@ -95,9 +95,9 @@
 //   };
   
 //   petya.showName();
-let user = {
-    name: "Джон",
-    go: function() { alert(this.name) }
-  };
+// let user = {
+//     name: "Джон",
+//     go: function() { alert(this.name) }
+//   };
   
-  (user.go)() // Джон
+//   (user.go)() // Джон

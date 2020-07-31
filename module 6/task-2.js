@@ -1,8 +1,18 @@
 import { users } from "./users.js";
 "use strict"
+///--1
+// const getUsersWithEyeColor = (users) => {
+// return users.filter(users =>users.eyeColor.includes("blue"))
+// };
 
-const getUsersWithGender = (users, gender) => {
-   return
-  };
+// console.log(getUsersWithEyeColor(users, 'blue')); // [объект Moore Hensley, объект Sharlene Bush, объект Carey Barr]
+
+// 2ой
+
+// const getUsersWithEyeColor = (users, color) => {
+//   return users.filter(users =>users.eyeColor===color)
+//   };
   
-  console.log(getUsersWithGender(users, 'male')); // [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
+//   console.log(getUsersWithEyeColor(users, 'blue')); // [объект Moore Hensley, объект Sharlene Bush, объект Carey Barr]
+  
+  
