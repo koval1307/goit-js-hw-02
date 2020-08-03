@@ -2,7 +2,9 @@
 // "use strict"
 
 // const getUsersWithFriend = (users, friendName) => {
-//   return users.filter (users =>users.friends.includes (friendName))
+//  return   users
+//    .filter((user) => user.friends.includes(friendName))  
+//    .map((user) => user.name);
 //   };
   
 //   console.log(getUsersWithFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]

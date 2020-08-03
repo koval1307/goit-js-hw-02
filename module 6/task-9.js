@@ -2,7 +2,9 @@
 // "use strict"
 
 // const getNamesSortedByFriendsCount = users => {
-//     return users.sort ((a,b)=>a.friends.lenght - b.friends.lenght );
+//     return users
+//         .sort((a, b) => a.friends.length - b.friends.length)
+//   .map((user) => user.name)
 //   };
   
 //   console.log(getNamesSortedByFriendsCount(users));
